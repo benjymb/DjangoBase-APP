@@ -17,4 +17,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('valerdat/', include(valerdat_router.urls)),
+    path('valerdat/shearchcoords/', views.ShearchCoords.as_view(), name="shearcoords"),
 ]
