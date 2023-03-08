@@ -1,1 +1,2 @@
 # DjangoBase-APP
+# Improvements
